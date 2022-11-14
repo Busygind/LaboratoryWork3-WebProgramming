@@ -23,6 +23,7 @@ public class HitValidator implements Validator {
         return false;
     }
 
+    // задел на расширение, пока useless
     @Override
     public void validate(FacesContext facesContext, UIComponent uiComponent, Object o) throws ValidatorException {
 
