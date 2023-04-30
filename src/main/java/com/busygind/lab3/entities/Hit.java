@@ -28,4 +28,10 @@ public class Hit implements Serializable {
     private Date timestamp;
     @Column(name = "session_id")
     private String sessionId;
+
+    public Hit(Double x, Double y, Double r) {
+        this.x = x;
+        this.y = y;
+        this.r = r;
+    }
 }
